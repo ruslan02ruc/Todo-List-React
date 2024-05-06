@@ -1,0 +1,88 @@
+.task-info {
+  width: 546px;
+  height: auto;
+  background: #FFF;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: auto;
+  cursor: pointer;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+
+    &.grey {
+      color: #C9D1D3;
+    }
+    
+    &.green {
+        color: #42B883;
+    }
+
+    &.blue {
+      color: #64C4ED;
+    }
+
+    &.pink {
+      color: #FFBBCC;
+    }
+
+    &.lime {
+      color: #B6E6BD;
+    }
+
+    &.purple {
+      color: #C355F5;
+    }
+
+    &.black {
+      color: #110133;
+    }
+
+    &.red {
+      color: #FF6464;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  &__text {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.line {
+  background: #F2F2F2;
+  width: 100%;
+  height: 1px;
+}
+
+.no-task {
+  color: #C9D1D3;
+  font-size: 32px;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+}
+
+.new--task {
+  color: #B4B4B4;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
